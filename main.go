@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"github.com/UmaruCMS/core/http"
+)
 
 func main() {
-	fmt.Println("Hello World!")
+	http.Serve()
 }
